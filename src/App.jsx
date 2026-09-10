@@ -13,10 +13,6 @@ function App() {
   return (
     <>
       <Header setquery={setquery} />
-      {/* <Home/>
-      <About/>
-      <Products query={query}/>
-      <Pricing/> */}
       <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/about' element={<About/>}/>
@@ -25,8 +21,6 @@ function App() {
       </Routes>
       
       <Footer/>
-      
-      
     </>
   )
 }
